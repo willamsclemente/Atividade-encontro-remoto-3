@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="transforma-header">
+        <div class="container-grid">
+                <div class="logo-buscador">
+                    <a href="index.html" class="logo">
+                        <img src="img/game.svg" alt="Iconelogo">
+                        <img src="img/GAMEMANIA4-SF 1.svg" alt="Logo">
+                    </a>
+        </div>                 
+    </header>
+
+    <main class="transforma-main">
+        <div class="mascara">
+            <section class="container-grid-login">
+                    <form class="login">
+                        <h2 class="titulo-login">Já sou cliente</h2>
+                        <input id="campo-login" type="text" class="campo-login" minlength="5" placeholder="Seu e-mail, CPF ou CNPJ" required>
+                        <input id="campo-senha"type="password" class="campo-login" minlength="8" placeholder="Sua senha" required>
+                        <a href="#" class="link-muda-senha">Esqueci minha senha</a>
+                        <button class="botao-login" onclick="loginUsuario()">Entrar</button>
+                    </form>
+                    <form class="login">
+                        <h2 class="titulo-login">Criar uma conta</h2>
+                        <input id="campo-email"type="email" class="campo-login" minlength="5" placeholder="Seu e-mail" required>
+                        <button class="botao-login" onclick="cadastrarUsuario()">Continuar</button>
+                    </form>
+    
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-grid" style="width: 900px">
+            <div class="titulo-informacoes-rodape">
+                <h2 class="titulo-rodape">Institucional</h2>
+                <nav class="informacoes-rodape">
+                    <a href="#" class="link-rodape">Fale Conosco</a>
+                    <a href="#" class="link-rodape">Política de Privacidade</a>
+                    <a href="#" class="link-rodape">Politica de Troca, 
+                                <br>Devolução e Reembolso</a>
+                    <a href="#" class="link-rodape">Sobre nós</a>
+                </nav>
+            </div>
+
+            <div class="titulo-informacoes-rodape">
+                <h2 class="titulo-rodape">Atendimento</h2>
+                <nav class="atendimento-rodape">
+                    <div class="icone-link-rodape">
+                        <img src="img/chamada.svg" alt="telefone" class="icone-rodape">
+                        <a href="#" class="link-rodape">(47) 99538-4194</a>
+                    </div>
+                    <div class="icone-link-rodape">
+                        <img src="img/whatsapp.svg" alt="whatsapp" class="icone-rodape">
+                        <a href="#" class="link-rodape">(47) 99538-4194</a>
+                    </div>
+                    <div class="icone-link-rodape" style="width: 105%;"">
+                        <img src="img/mensagem.svg" alt="mensagem" class="icone-rodape">
+                        <a href="#" class="link-rodape">gamemania@shop.com.br</a>                     
+                    </div>
+                </nav>
+            </div>
+
+            <div class="titulo-informacoes-rodape">
+                <div>
+                    <h2 class="titulo-rodape">Acompanhe nas redes</h2>
+                    <div class="redes-rodape">
+                        <a href="#">
+                            <img src="img/facebook.svg" alt="facebook" class="icone-rede-rodape">
+                        </a>
+                        <a href="#">
+                            <img src="img/instagram.svg" alt="instagram" class="icone-rede-rodape">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="titulo-rodape">Pague com</h2>
+                    <div class="pagamento-rodape">
+                        <img src="img/visa.svg" alt="cartao visa" class="icone-pagamento">
+                        <img src="img/martercard.svg" alt="cartao mastercard" class="icone-pagamento">
+                        <img src="img/hipercard.svg" alt="cartao hipercard" class="icone-pagamento">
+                        <img src="img/boleto.svg" alt="boleto"class="icone-pagamento">
+                    </div>
+
+                </div>
+    
+                 
+            </div>
+
+        </div>
+       
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
